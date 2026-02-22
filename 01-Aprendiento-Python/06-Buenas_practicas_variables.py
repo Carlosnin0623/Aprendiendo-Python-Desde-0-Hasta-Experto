@@ -13,9 +13,8 @@ nivel_energia = 87.5
 Nivel_Energia = 90.5 # No es una buena practia
 
 """
-Constantes: En python no existe como tal el concepto de constantes, solo que hacen los programadores de Python
-es poner las variables que consideren como constantes en mayúsculas y ya con esto indican que es una variable
-donde su valor no debe cambiar.
+Constantes: En python no existe como tal el concepto de constantes, pero como convención los programadores de Python
+definen las constantes en mayúsculas, indicando con esto que su valor no debe cambiar.
 
 """
 NIVEL_ENERGIA = 100.00  # Esto se considera una constante en python
