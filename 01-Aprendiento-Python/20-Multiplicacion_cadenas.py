@@ -25,7 +25,7 @@ Por Decimal (Float)
 
 # Programa: Multiplicación de Cadenas
 
-#1. Crear un seperador visual
+#1. Crear un separador visual
 linea = "=" * 20
 print(linea)
 
@@ -33,3 +33,9 @@ print(linea)
 nivel = 2
 sangria = "   " * nivel
 print(sangria + "definición_bloque_codigo:")
+
+#3. Patrones Simples
+print("1" * 10)
+
+#4. Error Comun (Comentado para evitar crash)
+# print("Hola" * 2.5) #resultado: can't multiply sequence by non-int of type 'float'
