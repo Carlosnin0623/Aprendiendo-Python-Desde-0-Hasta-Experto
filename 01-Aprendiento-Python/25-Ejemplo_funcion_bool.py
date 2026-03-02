@@ -4,9 +4,8 @@
 
 respuesta_usuario = "False" # Esto es texto
 
-# La funcion bool evalúa si el string esta vacio como no esta vacio devolvera True
-es_verdad = bool(respuesta_usuario) # Resultado: True porque "False" es un texto con 5 caracteres no esta vacio.
-
+# La funcion bool evalúa si el string esta vacio, pero como no esta vacio... entonces devolvera True
+es_verdad = bool(respuesta_usuario) # Resultado: True porque tiene 5 caracteres si estuviera vacio fuera False
 print(f"El valor es: {es_verdad}") # True
 
 # Forma correcta de validar vacio:
