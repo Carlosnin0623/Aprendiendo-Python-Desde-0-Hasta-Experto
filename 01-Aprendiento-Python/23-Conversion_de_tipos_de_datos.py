@@ -5,7 +5,7 @@ Es el proceso de transformar un dato de un tipo a otro.
 
 Texto -> Número
 
-En python tenemos 3 funciones claces para la transormación explícita.
+En python tenemos 3 funciones claces para la tranformación explícita.
 
 int(): Convierte texto o decimales a Enteros.
 float(): Convierte texto o enteros a decimales.
