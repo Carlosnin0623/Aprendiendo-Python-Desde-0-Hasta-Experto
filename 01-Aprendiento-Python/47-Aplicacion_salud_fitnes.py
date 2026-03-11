@@ -24,13 +24,15 @@ meta_alcanzada = pasos_diarios >= META_PASOS_DIARIO
 # Datos de entrada del usuario
 try:
     nombre_usuario = input('Introduzca su nombre de usuario: ').strip().lower()
-    pasos_diarios = float(input('Introduce los pasos caminados el día de hoy: '))
 
     if not nombre_usuario:
         raise ValueError("El nombre de usuario no puede estar vacío")
-     # validando que el usuario no tenga números al principio
+    
+      # validando que el usuario no tenga números al principio
     if(nombre_usuario[0].isdigit()):
       raise ValueError('El nombre de de usuario no puede comenzar con números')
+    
+    pasos_diarios = float(input('Introduce los pasos caminados el día de hoy: '))
 
     if pasos_diarios < 0:
         raise ValueError("Los pasos no pueden ser negativos")
